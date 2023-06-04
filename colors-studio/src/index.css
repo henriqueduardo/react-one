@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Roboto&display=swap');
 
 * {
     padding: 0px;
@@ -36,4 +36,41 @@ html {
 
 .bg-primary-2 {
     background: #3F3F3F;
+}
+
+.bg-highlight {
+    background: var(--bg-highlight);
+}
+
+.color-primary {
+    color: var(--bg);
+}
+
+.new-video {
+    padding-top: 80px;
+    padding-bottom: 100px;
+}
+
+.highlight {
+    color: var(--bg-highlight);
+}
+
+.bg-input {
+    background: #53585D;
+    border-bottom: 4px solid var(--bg);
+}
+
+:focus-visible {
+    border-bottom: 4px solid var(--bg-highlight);
+}
+
+:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0px 1000px #8e8e8e inset;
+    color: #fff;
+}
+
+::placeholder {
+    color: #fff;
+    text-transform: initial;
+    font-size: 18px;
 }
