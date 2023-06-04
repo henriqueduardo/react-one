@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+html {
+    max-width: 1500px;
+    min-width: 320px;
+    margin: 0 auto;
+    scroll-behavior: smooth;
+}
+
+:root {
+    --bg: #2e2d2d;
+    --bg-light: #3F3F3F;
+    --bg-highlight: #FF4C0C;
+} 
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.bg-primary {
+    background: var(--bg);
+}
+
+.bg-primary-2 {
+    background: #3F3F3F;
+}
