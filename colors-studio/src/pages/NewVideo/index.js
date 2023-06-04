@@ -4,6 +4,7 @@ import InputText from '../../components/FormInputText';
 import TextareaDescription from '../../components/FormInputDesc';
 import { Link } from 'react-router-dom';
 import ButtonNewVideo from '../../components/ButtonNewVideo';
+import InputSelect from '../../components/FormInputCategories';
 
 const NewVideo = () => {
   return (
@@ -37,13 +38,14 @@ const NewVideo = () => {
                 placeholder="Insira o link da thumbnail do vídeo ou qualquer outra imagem png, jpg..."
                 type="text"/>
 
+                <InputSelect
+                label="Escolha a categoria"/>
+
                 <TextareaDescription
                 label="Descrição"
                 placeholder="Digite a descrição do vídeo"/>
 
-            </form>
-
-            <div className='container flex flex-row gap-10'>
+            <div className='flex flex-row gap-10'>
 
                 <ButtonNewVideo
                 text="Adicionar"
@@ -55,6 +57,9 @@ const NewVideo = () => {
                 type="reset"
                 className="text-white w-44 h-14 text-center text-lg cursor-pointer rounded transition-all bg-zinc-500 mb-40 hover:bg-zinc-400"/>
             </div>
+
+            </form>
+
 
         </section>
     </>
