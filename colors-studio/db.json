@@ -1,0 +1,108 @@
+{
+  "videos": [
+    {
+      "title": "Alicia Keys feat. SiR - Three Hour Drive",
+      "link": "https://youtu.be/CbDd295n3f0",
+      "image": "https://i.ytimg.com/vi/CbDd295n3f0/maxresdefault.jpg",
+      "categoryVideo": "R&B",
+      "description": "New York City legend @AliciaKeys graces the COLORS stage with an exclusive rendition of ‘Three Hour Drive’ featuring SiR; which is taken from her newly released self-titled album 'Alicia'.",
+      "id": 1
+    },
+    {
+      "title": "Smino - Rice & Gravy",
+      "link": "https://youtu.be/SlSALURBjNw",
+      "image": "https://i.ytimg.com/vi/SlSALURBjNw/maxresdefault.jpg",
+      "categoryVideo": "Boombap",
+      "description": "St. Louis-born, LA/Chicago-based rapper @smino5058 closes out our collaborative series with @Burberry  with a scorching performance of new single “Rice & Gravy” (produced by fellow COLORS alum @montebooker)",
+      "id": 2
+    },
+    {
+      "title": "SiR - John Redcorn",
+      "link": "https://youtu.be/N4JNGcbWRak",
+      "image": "https://i.ytimg.com/vi/N4JNGcbWRak/maxresdefault.jpg",
+      "categoryVideo": "R&B",
+      "description": "Inglewood’s SiR lays down an emotive performance of ‘John Redcorn’ (produced by Kal Banx & Jeff “Gitty” Gitelman), taken from his latest album ‘Chasing Summer’.",
+      "id": 3
+    },
+    {
+      "title": "Ne-Yo - Don't Love Me",
+      "link": "https://youtu.be/MpF_JupPMow",
+      "image": "https://i.ytimg.com/vi/MpF_JupPMow/maxresdefault.jpg",
+      "categoryVideo": "R&B",
+      "description": "South London based singer/songwriter James Vickery treats us to a slick and soulful performance of latest single “Until Morning” (prod. Louis Mattrs) which is lifted from his forthcoming sophomore EP.",
+      "id": 4
+    },
+    {
+      "title": "Eliza - Wasn´t Looking ",
+      "link": "https://youtu.be/0nplzEY0IXA",
+      "image": "https://i.ytimg.com/vi/0nplzEY0IXA/maxresdefault.jpg",
+      "categoryVideo": "R&B",
+      "description": "London based singer/songwriter lays down her golden tones which are just as smooth as they are seductive on her stunning performance of new single “Wasn’t Looking”.",
+      "id": 5
+    },
+    {
+      "title": "James Vickery - Until Morning",
+      "link": "https://youtu.be/vGalFuPdock", 
+      "image": "https://i.ytimg.com/vi/vGalFuPdock/maxresdefault.jpg",
+      "categoryVideo": "R&B",
+      "description": "R&B icon @neyo graces the COLORS stage for a special performance as part of our series with Motown Records for Black Music Month.",
+      "id": 6
+    },
+    {
+      "title": "Erick the Architect - Self Made",
+      "link": "https://youtu.be/2sGv2cl2N7g",
+      "image": "https://i.ytimg.com/vi/2sGv2cl2N7g/maxresdefault.jpg",
+      "categoryVideo": "Boombap",
+      "description": "Brooklyn-based producer and rapper @EricktheArchitect222 delivers a razor-sharp performance of his new single ‘Selfmade’.",
+      "id": 7
+    },
+    {
+      "title": "WESTSIDE BOOGIE - STUCK",
+      "link": "https://youtu.be/-k3--5vljPE",
+      "image": "https://i.ytimg.com/vi/-k3--5vljPE/maxresdefault.jpg",
+      "categoryVideo": "Boombap",
+      "description": "Compton-based rapper @BoogieOfficial  drops by the COLORS stage with a breezy performance of his new single ‘Stuck’ which features his alter egos Anthony and Superblood Boog.\n",
+      "id": 8
+    },
+    {
+      "title": "SCH - Loup Noir",
+      "link": "https://youtu.be/59bdEkTLvBs",
+      "image": "https://i.ytimg.com/vi/59bdEkTLvBs/maxresdefault.jpg",
+      "categoryVideo": "Boombap",
+      "description": "French rapper Julien Schwarzer aka @sch shares a performance of cinematic new song \"Loup Noir\"",
+      "id": 9
+    },
+    {
+      "title": "Sofiane - Windsor",
+      "link": "https://youtu.be/R9da5J_FSus",
+      "image": "https://i.ytimg.com/vi/R9da5J_FSus/maxresdefault.jpg",
+      "categoryVideo": "Boombap",
+      "description": "French rapper Sofiane Zermani aka Sofiane (@FiansoOfficiel ) shares a sharp and powerful performance of new single ‘Windsor’.",
+      "id": 10
+    },
+    {
+      "title": "FKJ - Us",
+      "link": "https://youtu.be/TEW3ujNyGFw",
+      "image": "https://i.ytimg.com/vi/TEW3ujNyGFw/maxresdefault.jpg",
+      "categoryVideo": "Jazz",
+      "description": "French multi-instrumentalist and musician @FKJ  (aka French Kiwi Juice) creates a moment of magic with a live performance of ‘Us’, a highlight from his latest album ‘V I N C E N T’.",
+      "id": 11
+    },
+    {
+      "title": "Loyle Carner - HGU",
+      "link": "https://youtu.be/7zkmU47YTW8",
+      "image": "https://i.ytimg.com/vi/7zkmU47YTW8/maxresdefault.jpg",
+      "categoryVideo": "Jazz",
+      "description": "South London-based rapper @LoyleCarner eturns to COLORS with an emotional performance of ‘HGU’, the final track of his latest album ‘Hugo’.",
+      "id": 12
+    },
+    {
+      "title": "Brazilian Samba Grooves",
+      "link": "https://youtu.be/GyU8jToVmI8",
+      "image": "https://i.ytimg.com/vi/GyU8jToVmI8/maxresdefault.jpg",
+      "categoryVideo": "Favoritos",
+      "description": "bom pa caraio",
+      "id": 13
+    }
+  ]
+}

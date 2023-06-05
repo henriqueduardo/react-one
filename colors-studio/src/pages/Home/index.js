@@ -1,10 +1,21 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import "./style.css";
 import CategoryName from '../../components/CategoryName';
 import Slider from '../../components/Slider';
 import SliderCategories from '../../components/SliderCategories';
 
 const Home = () => {
+
+    const [videos, setVideos] = useState([]);
+
+    useEffect(() => {
+        fetch('http://localhost:3002/videos')
+        .then((response) => response.json())
+        .then((data) => setVideos(data))
+        .catch((error) => console.error(error));
+
+    }, []);
+
   return (
     <>
         <main className='main-bg text-white'>
@@ -13,8 +24,8 @@ const Home = () => {
                     
                     <div>
                         <CategoryName className="rounded text-white font-normal text-4xl mb-10 py-3 px-6 uppercase bg-primary w-max" name="drill"/>
-                        <h1 className='text-5xl font-semibold text-white mb-3'>Kwengface</h1>
-                        <p className='text-xl font-light w-9/12'>South London MC Kwengface <strong className='highlight'><a href="https://www.instagram.com/kwengface/" target='_blank' className='strong-link'>@kwengface2897</a></strong> shines a light on the UK drill scene with a fiery performance of his latest single ‘Freedom’.</p>
+                        <h1 className='text-5xl font-semibold text-white mb-3 text-gradient'>Kwengface</h1>
+                        <p className='text-xl font-light w-9/12'>South London MC Kwengface <strong className='highlight'><a href="https://www.instagram.com/kwengface/" target='_blank' className='text-gradient no-underline'>@kwengface2897</a></strong> shines a light on the UK drill scene with a fiery performance of his latest single ‘Freedom’.</p>
                     </div>
 
                     <div className='main-video'>
@@ -27,11 +38,13 @@ const Home = () => {
 
         <Slider/>
 
-        <SliderCategories name="boombap"/>
+        <SliderCategories name="Boombap" videos={videos}/>
 
-        <SliderCategories name="R&b"/>
+        <SliderCategories name="R&B" videos={videos}/>
 
-        <SliderCategories name="jazz"/>
+        <SliderCategories name="Jazz" videos={videos}/>
+
+        <SliderCategories name="Favoritos" videos={videos}/>
     </>
   )
 }

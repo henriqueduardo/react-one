@@ -18,6 +18,10 @@ html {
     scroll-behavior: smooth;
 }
 
+img {
+    max-width: none;
+}
+
 :root {
     --bg: #2e2d2d;
     --bg-light: #3F3F3F;
@@ -28,6 +32,12 @@ html {
     max-width: 1300px;
     margin: 0 auto;
     padding: 20px;
+}
+
+.text-gradient {
+    background: linear-gradient(120deg, #9d0502, #f74904);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .bg-primary {
@@ -58,6 +68,19 @@ html {
 .bg-input {
     background: #53585D;
     border-bottom: 4px solid var(--bg);
+}
+
+.border-imgs {
+    border: 4px solid var(--bg);
+}
+
+.border-imgs:hover {
+    transition: 0.3s;
+    border: 4px solid var(--bg-highlight);
+}
+
+.scroll-none::-webkit-scrollbar {
+    display: none;
 }
 
 :focus-visible {
