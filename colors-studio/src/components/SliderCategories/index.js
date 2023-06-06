@@ -89,7 +89,7 @@ const SliderCategories = ({ name, videos }) => {
                       <div className='mt-2'>
                         <p className='text-sm text-neutral-300'>{selectedVideo.description}</p>
                       </div>
-                      <div className='mt-2'>
+                      <div className='mt-2 mb-2'>
                         <p className='text-sm text-neutral-300 flex items-center gap-2 uppercase'>
                           <VscColorMode/>
                           {selectedVideo.categoryVideo}</p>
