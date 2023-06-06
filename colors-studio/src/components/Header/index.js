@@ -11,10 +11,10 @@ const Header = () => {
     <>
     <header className='bg-primary text-white header-bg'>
         <nav className='flex flex-row justify-between container'>
-            <Link to="/" className='font-bold text-xl py-5 uppercase no-underline text-white'>colors * studios</Link>
+            <Link to="/" className='font-bold text-xl py-5 uppercase no-underline text-white logo'>colors * studios</Link>
             {location.pathname === '/' && (
             <Link to="/novo-video">
-              <ButtonNewVideo className="border-2 text-xl rounded font-medium no-underline text-white p-5 cursor-pointer" text="Novo vídeo"/>
+              <ButtonNewVideo className="border-2 text-xl rounded font-medium no-underline text-white p-5 cursor-pointer new-video-btn" text="Novo vídeo"/>
             </Link>
           )}
         </nav>

@@ -29,14 +29,14 @@ const Home = () => {
                     </div>
 
                     <div className='main-video'>
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZMKQ-yX1aNU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='video'></iframe>
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/ZMKQ-yX1aNU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='video border-imgs'></iframe>
                     </div>
 
                 </div>
             </div>
         </main>
 
-        <Slider/>
+        <Slider name="Drill" videos={videos}/>
 
         <SliderCategories name="Boombap" videos={videos}/>
 

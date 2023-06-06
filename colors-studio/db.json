@@ -42,7 +42,7 @@
     },
     {
       "title": "James Vickery - Until Morning",
-      "link": "https://youtu.be/vGalFuPdock", 
+      "link": "https://youtu.be/vGalFuPdock",
       "image": "https://i.ytimg.com/vi/vGalFuPdock/maxresdefault.jpg",
       "categoryVideo": "R&B",
       "description": "R&B icon @neyo graces the COLORS stage for a special performance as part of our series with Motown Records for Black Music Month.",
@@ -103,6 +103,46 @@
       "categoryVideo": "Favoritos",
       "description": "bom pa caraio",
       "id": 13
+    },
+    {
+      "title": "Febem - Champions",
+      "link": "https://youtu.be/YWrMaXfiHEo",
+      "image": "https://i.ytimg.com/vi/YWrMaXfiHEo/maxresdefault.jpg",
+      "categoryVideo": "Drill",
+      "description": "Brazilian rapper @Febemog serves up a powerful performance of his new single ‘Champions’ produced by long-time collaborator CESRV.",
+      "id": 14
+    },
+    {
+      "title": "Knucks - Alpha House/Bando",
+      "link": "https://youtu.be/DPrUf1P9BWI",
+      "image": "https://i.ytimg.com/vi/DPrUf1P9BWI/maxresdefault.jpg",
+      "categoryVideo": "Drill",
+      "description": "South Kilburn, London-based rapper @Knucks brings his sharp flows to COLORS with a striking medley of his new singles ‘Alpha House’ and ‘Bando’.",
+      "id": 15
+    },
+    {
+      "title": "Unknown T - Goodums",
+      "link": "https://youtu.be/Nt8gaY0FofE",
+      "image": "https://i.ytimg.com/vi/Nt8gaY0FofE/maxresdefault.jpg",
+      "categoryVideo": "Drill",
+      "description": "Rising British drill artist @unknwnt9 drops by for a fiery performance of new single ‘Goodums’ with pianist Jay Verma",
+      "id": 16
+    },
+    {
+      "title": "Skepta - No Sleep",
+      "link": "https://youtu.be/87yKlmg3sN4",
+      "image": "https://i.ytimg.com/vi/87yKlmg3sN4/maxresdefault.jpg",
+      "categoryVideo": "Drill",
+      "description": "North London’s Skepta is on another level on ‘No Sleep’, a hard-hitting cut taken from his newly released album ‘Ignorance Is Bliss’.",
+      "id": 17
+    },
+    {
+      "title": "Gazo - MOLLY",
+      "link": "https://youtu.be/2uM9ZIS-v0w",
+      "image": "https://i.ytimg.com/vi/2uM9ZIS-v0w/maxresdefault.jpg",
+      "categoryVideo": "Drill",
+      "description": "Parisian drill artist Gazo drops by our stage to deliver a powerful performance of his new single ‘MOLLY’.",
+      "id": 18
     }
   ]
 }

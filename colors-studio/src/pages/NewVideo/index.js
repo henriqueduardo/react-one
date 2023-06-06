@@ -38,7 +38,7 @@ const NewVideo = () => {
       <>
         <section className='bg-primary-2 h-auto w-full'>
           <div className='container flex flex-row justify-between items-center new-video'>
-            <h2 className='text-6xl font-semibold text-white'>
+            <h2 className='text-6xl font-semibold text-white title-newvideo'>
               Novo <span className='color-primary'>*</span> vídeo
             </h2>
             <Link to='/'>

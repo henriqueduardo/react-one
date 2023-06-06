@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import CategoryName from '../CategoryName';
+import { VscColorMode } from "react-icons/vsc";
+import { IoMdClose } from "react-icons/io";
 
 const SliderCategories = ({ name, videos }) => {
 
@@ -56,7 +58,7 @@ const SliderCategories = ({ name, videos }) => {
                 <img
                   src={video.image}
                   alt={video.description}
-                  className='h-52 w-auto fit object-cover rounded mb-1 border-imgs cursor-pointer'
+                  className='h-52 w-auto fit object-cover rounded mb-1 border-imgs cursor-pointer thumb-img transform hover:scale-95'
                   onClick={() => handleVideoClick(video)}
                 />
               </div>
@@ -64,7 +66,7 @@ const SliderCategories = ({ name, videos }) => {
           ))}
         </div>
         {selectedVideo && (
-          <div className='fixed z-10 inset-0 overflow-y-auto'>
+          <div className='fixed z-10 inset-0 overflow-y-hidden'>
             <div className='flex items-center justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0'>
               <div className='fixed inset-0 transition-opacity' aria-hidden='true'>
                 <div className='absolute inset-0 bg-primary opacity-75'></div>
@@ -73,21 +75,35 @@ const SliderCategories = ({ name, videos }) => {
                 &#8203;
               </span>
               <div
-                className='inline-block align-bottom bg-primary rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full'
+                className='inline-block align-bottom bg-primary rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle xl:max-w-3xl sm:w-full'
                 role='dialog'
                 aria-modal='true'
                 aria-labelledby='modal-headline'
               >
                 <div className='bg-primary px-4 pt-5 pb-4 sm:p-6 sm:pb-4'>
-                  <div className='sm:flex sm:items-start'>
-                    <div className='mt-3 text-center sm:mt-0 sm:text-left'>
+                  <div className='sm:flex sm:items-start justify-between'>
+                    <div className='mt-3 sm:mt-0 sm:text-left'>
                       <h3 className='text-lg leading-6 font-medium text-white' id='modal-headline'>
                         {selectedVideo.title}
                       </h3>
                       <div className='mt-2'>
                         <p className='text-sm text-neutral-300'>{selectedVideo.description}</p>
                       </div>
+                      <div className='mt-2'>
+                        <p className='text-sm text-neutral-300 flex items-center gap-2 uppercase'>
+                          <VscColorMode/>
+                          {selectedVideo.categoryVideo}</p>
+                      </div>
                     </div>
+                  <div className='bg-primary sm:flex sm:flex-row-reverse'>
+                  <button
+                    type='button'
+                    className='w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-primary-2 font-medium text-white sm:w-auto sm:text-sm hover:bg-orange-600 transition-all'
+                    onClick={handleCloseModal}
+                  >
+                    <IoMdClose/>
+                  </button>
+                  </div>
                   </div>
                 </div>
 
@@ -96,18 +112,8 @@ const SliderCategories = ({ name, videos }) => {
                 height="315"
                 src={`https://www.youtube.com/embed/${selectedVideo.link.split('/').pop()}`}
                 title="YouTube video player"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='w-full h-72'>
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" className='w-full h-video-modal'>
                 </iframe>
-
-                <div className='bg-primary px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse'>
-                  <button
-                    type='button'
-                    className='w-full inline-flex justify-center rounded-md border border-transparent shadow-sm px-4 py-2 bg-primary-2 text-base font-medium text-white sm:ml-3 sm:w-auto sm:text-sm'
-                    onClick={handleCloseModal}
-                  >
-                    Fechar
-                  </button>
-                </div>
               </div>
             </div>
           </div>
