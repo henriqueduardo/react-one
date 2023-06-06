@@ -153,12 +153,20 @@
       "id": 19
     },
     {
-      "title": "Nas - Speechless",
-      "link": "https://youtu.be/UtGrdtLSOWA",
-      "image": "https://i.ytimg.com/vi/UtGrdtLSOWA/maxresdefault.jpg",
+      "title": "Joey Bada$$ - Fallin'",
+      "link": "https://youtu.be/yGvrSfsAeqM",
+      "image": "https://i.ytimg.com/vi/yGvrSfsAeqM/maxresdefault.jpg",
       "categoryVideo": "Favoritos",
-      "description": "Grammy-Award winning rap legend Nas has surprised fans everywhere with a holiday gift—his new project, Magic. Produced by Nas’s longtime collaborator Hit-Boy, Magic features 9 brand new tracks including “Wave Gods” ft. A$AP Rocky and DJ Premier.",
+      "description": "Official video for “Fallin’” by Joey Bada$$",
       "id": 20
+    },
+    {
+      "title": "13. Sant & LP Beatzz — AQL SLV ",
+      "link": "https://youtu.be/rD4n8D1yNEw",
+      "image": "https://i.ytimg.com/vi/rD4n8D1yNEw/maxresdefault.jpg",
+      "categoryVideo": "Favoritos",
+      "description": "Rap dos novos Bandidos, o proibidão",
+      "id": 21
     }
   ]
 }
