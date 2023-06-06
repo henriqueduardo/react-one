@@ -15,4 +15,4 @@ Esse projeto é uma aplicação web para cadastrar e exibir vídeos de acordo co
 3. Entre no diretório do projeto e rode com: npm start
 4. Abra outro terminal e rode junto o json-server com: json-server --watch db.json --port 3002
 
-<img src="https://images2.imgbox.com/7c/b4/aMsPikfH_o.jpeg" width=400px/>
+<img src="https://images2.imgbox.com/7c/b4/aMsPikfH_o.jpeg" width="400px"/>
