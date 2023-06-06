@@ -20,12 +20,12 @@ const Home = () => {
     <>
         <main className='main-bg text-white'>
             <div className='container'>
-                <div className='mt-40 mb-40 flex flex-row items-center gap-12'>
+                <div className='mt-40 mb-40 flex flex-row items-center gap-12 main-box'>
                     
                     <div>
                         <CategoryName className="rounded text-white font-normal text-4xl mb-10 py-3 px-6 uppercase bg-primary w-max" name="drill"/>
-                        <h1 className='text-5xl font-semibold text-white mb-3 text-gradient'>Kwengface</h1>
-                        <p className='text-xl font-light w-9/12'>South London MC Kwengface <strong className='highlight'><a href="https://www.instagram.com/kwengface/" target='_blank' className='text-gradient no-underline'>@kwengface2897</a></strong> shines a light on the UK drill scene with a fiery performance of his latest single ‘Freedom’.</p>
+                        <h1 className='text-5xl font-semibold text-white mb-3 text-gradient py-2'>Kwengface</h1>
+                        <p className='text-xl font-light w-9/12'>South London MC Kwengface <strong className='highlight-gradient'><a href="https://www.instagram.com/kwengface/" target='_blank' className='no-underline'>@kwengface2897</a></strong> shines a light on the UK drill scene with a fiery performance of his latest single ‘Freedom’.</p>
                     </div>
 
                     <div className='main-video'>

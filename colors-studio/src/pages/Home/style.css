@@ -12,3 +12,49 @@
     border: 4px solid var(--bg-highlight);
     border-radius: 4px;
 }
+
+.text-gradient {
+    background: linear-gradient(120deg, #f74904, #9d0502);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.highlight-gradient {
+    color: #fff;
+}
+
+.highlight-gradient:hover {
+    background: linear-gradient(120deg, #f74904, #9d0502);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media (max-width: 1000px) {
+    .main-box {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 850px) {
+    .main-bg {
+        background-position: initial;
+    }
+}
+
+@media (max-width: 600px) {
+    .video {
+        width: 440px;
+    }
+}
+
+@media (max-width: 450px) {
+    .video {
+        width: 350px;
+    }
+}
+
+@media (max-width: 350px) {
+    .video {
+        width: 300px;
+    }
+}

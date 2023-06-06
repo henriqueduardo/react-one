@@ -34,12 +34,6 @@ img {
     padding: 20px;
 }
 
-.text-gradient {
-    background: linear-gradient(120deg, #9d0502, #f74904);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
 .bg-primary {
     background: var(--bg);
 }
@@ -71,16 +65,29 @@ img {
 }
 
 .border-imgs {
-    border: 4px solid var(--bg);
+    border: 4px solid #2e2d2d;
+    border-radius: 4px;
+    transition: border-image 0.5s ease-in-out;
 }
 
 .border-imgs:hover {
-    transition: 0.3s;
-    border: 4px solid var(--bg-highlight);
+    border-image: linear-gradient(to right, #9d0502, #f74904) 1;
 }
 
 .scroll-none::-webkit-scrollbar {
     display: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: var(--bg-light);
+}
+  
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(120deg, #9d0502, #f74904);
 }
 
 :focus-visible {

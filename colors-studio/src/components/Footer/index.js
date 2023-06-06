@@ -1,7 +1,9 @@
 import React from 'react';
 import "./style.css";
 import colors from "../../img/colors.png";
-import { AiFillGithub, AiFillInstagram, AiFillYoutube } from "react-icons/ai"
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai"
+import { FaSpotify, FaYoutube } from "react-icons/fa";
+import { RiSpotifyFill } from "react-icons/ri"
 
 const Footer = () => {
   return (
@@ -14,17 +16,22 @@ const Footer = () => {
             <ul className='flex flex-row justify-center gap-2 pb-16 pt-4'>
               <li>
                 <a href='youtube.com' target='_blank'>
-                  <AiFillYoutube className='text-3xl'/>
+                  <FaYoutube className='text-3xl hover:text-orange-500'/>
                 </a>
               </li>
               <li>
                 <a href='youtube.com' target='_blank'>
-                  <AiFillInstagram className='text-3xl'/>
+                  <RiSpotifyFill className='text-3xl hover:text-orange-500'/>
                 </a>
               </li>
               <li>
                 <a href='youtube.com' target='_blank'>
-                  <AiFillGithub className='text-3xl'/>
+                  <AiFillInstagram className='text-3xl hover:text-orange-500'/>
+                </a>
+              </li>
+              <li>
+                <a href='youtube.com' target='_blank'>
+                  <AiFillGithub className='text-3xl hover:text-orange-500'/>
                 </a>
               </li>
             </ul>
