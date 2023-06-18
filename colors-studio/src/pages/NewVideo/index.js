@@ -18,7 +18,7 @@ const NewVideo = () => {
     const handleSubmit = (e) => {
       e.preventDefault();
       const video = { title, link, image, categoryVideo, description };
-      fetch('http://localhost:3002/videos', {
+      fetch('https://json-colors.vercel.app/videos', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(video),

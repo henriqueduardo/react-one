@@ -9,7 +9,7 @@ const Home = () => {
     const [videos, setVideos] = useState([]);
 
     useEffect(() => {
-        fetch('http://localhost:3002/videos')
+        fetch('https://json-colors.vercel.app/videos')
         .then((response) => response.json())
         .then((data) => setVideos(data))
         .catch((error) => console.error(error));
