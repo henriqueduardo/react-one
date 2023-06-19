@@ -18,6 +18,11 @@
     color: #fff;
 }
 
+.video {
+    width: 544px;
+    height: 309px;
+}
+
 .highlight-gradient:hover {
     background: linear-gradient(120deg, #f74904, #9d0502);
     -webkit-background-clip: text;
